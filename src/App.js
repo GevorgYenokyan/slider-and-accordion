@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import PassPropsForAcorden from "./components/PassPropsForAcorden";
+import Slide from "./components/Slide";
 
 function App() {
+  // function getPrimeNumbers(num) {
+  //   let arr = [];
+  //   next: for (let i = 2; i <= 9; i++) {
+  //     for (let j = 2; j < i / 2; j++) {
+  //       if (i % j == 0) continue next;
+  //     }
+
+  //     arr.push(i);
+  //   }
+  //   return arr;
+  // }
+
+  // console.log(getPrimeNumbers(10));
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Slide />
+      <PassPropsForAcorden />
+      <Slide />
     </div>
   );
 }

@@ -1,0 +1,58 @@
+.slider{
+    position: relative;
+    border-top: 10px double  black ;
+    border-bottom:10px double black ;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    transition: 1s;
+   
+}
+
+.slider_contener{
+    display: flex;
+    width: 300px;
+    transition: 1s;
+
+}
+
+.slide_list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 300px;
+}
+
+.list{
+    width: 250px;
+    margin: 10px auto;
+}
+
+.img{
+    width: 250px;
+    height: 200px;
+    margin: 0% auto;
+}
+
+#list_head{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn_next{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.brn_prev{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    font-size: 30px;
+    cursor: pointer;
+}
