@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState ,memo} from "react";
 
 const Acordion = ({ element }) => {
   const [isActive, setIsActive] = useState(false);
@@ -26,4 +26,4 @@ const Acordion = ({ element }) => {
   );
 };
 
-export default Acordion;
+export default memo( Acordion);

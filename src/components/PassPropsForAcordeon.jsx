@@ -1,7 +1,7 @@
 import AcordionData from "../Data/AcordionData";
 import Acordion from "./Acordion";
 
-function PassPropsForAcorden() {
+function PassPropsForAcordeon() {
   return (
     <div>
       <div className="acordion">
@@ -13,4 +13,4 @@ function PassPropsForAcorden() {
   );
 }
 
-export default PassPropsForAcorden;
+export default PassPropsForAcordeon;

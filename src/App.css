@@ -27,15 +27,15 @@
 .accordion-content{
   margin: 0% auto;
   height: 100px;
-  transition: 1s;
+  transition: all ease 0.3s;
   width: 100%;
-  background-color: rgb(167, 233, 44);
+
 }
 
 .accordion-content_fals{
   height: 0px;
   font-size: 0px;
- transition: 1s;
+ transition:  all ease 0.3s;;
 }
 
 .acordion_content_ul{

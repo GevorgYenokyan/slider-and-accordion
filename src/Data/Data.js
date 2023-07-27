@@ -69,6 +69,54 @@ const Data = [
         arrow:<HiArrowSmRight className={classes.arrow}/>,
 
     },
+
+    {
+        id:"8",
+        img:"./img/Avast_SHUTTERSTOCK.webp",
+        head:"Your IP address can be used to pin down the address of where your computer accessed the internet.",
+        text:"First things, first: What’s an IP address? “IP” stands for “internet protocol.” Your IP address it the way your internet service provider (ISP) connects you with the internet. It’s a unique number that your ISP assigns your computer so that you can communicate",
+        learnMore:"LEARN MORE",
+        arrow:<HiArrowSmRight className={classes.arrow}/>,
+
+    },
+    {
+        id:"9",
+        img:"./img/images.jpeg",
+        head:"Your IP address can be used to pin down the address of where your computer accessed the internet.",
+        text:"First things, first: What’s an IP address? “IP” stands for “internet protocol.” Your IP address it the way your internet service provider (ISP) connects you with the internet. It’s a unique number that your ISP assigns your computer so that you can communicate",
+        learnMore:"LEARN MORE",
+        arrow:<HiArrowSmRight className={classes.arrow}/>,
+
+    },
+    {
+        id:"10",
+        img:"./img/Avast_SHUTTERSTOCK.webp",
+        head:"Your IP address can be used to pin down the address of where your computer accessed the internet.",
+        text:"First things, first: What’s an IP address? “IP” stands for “internet protocol.” Your IP address it the way your internet service provider (ISP) connects you with the internet. It’s a unique number that your ISP assigns your computer so that you can communicate",
+        learnMore:"LEARN MORE",
+        arrow:<HiArrowSmRight className={classes.arrow}/>,
+
+    },
+
+    {
+        id:"11",
+        img:"./img/images.jpeg",
+        head:"Your IP address can be used to pin down the address of where your computer accessed the internet.",
+        text:"First things, first: What’s an IP address? “IP” stands for “internet protocol.” Your IP address it the way your internet service provider (ISP) connects you with the internet. It’s a unique number that your ISP assigns your computer so that you can communicate",
+        learnMore:"LEARN MORE",
+        arrow:<HiArrowSmRight className={classes.arrow}/>,
+
+    },
+
+    {
+        id:"12",
+        img:"./img/Avast_SHUTTERSTOCK.webp",
+        head:"Your IP address can be used to pin down the address of where your computer accessed the internet.",
+        text:"First things, first: What’s an IP address? “IP” stands for “internet protocol.” Your IP address it the way your internet service provider (ISP) connects you with the internet. It’s a unique number that your ISP assigns your computer so that you can communicate",
+        learnMore:"LEARN MORE",
+        arrow:<HiArrowSmRight className={classes.arrow}/>,
+
+    },
 ]
 
 export default Data
