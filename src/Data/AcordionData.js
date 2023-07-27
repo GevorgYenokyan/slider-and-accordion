@@ -8,7 +8,7 @@ const AcordionData = [
       `quaerat iure quos dolorum accusantium ducimus`,
       `illum vero commodi
           pariatur? Impedit autem esse nostrum quasi`,
-    
+
       ,
     ],
   },
